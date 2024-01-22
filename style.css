@@ -360,7 +360,7 @@ justify-content: center;
 
 @media (max-width: 768px) {
   .sources-pc{
-    padding-top: 10px;
+    margin-top: 290px;
   
   }
 }
@@ -382,3 +382,5 @@ justify-content: center;
     height:230px; 
   }
 }
+
+
