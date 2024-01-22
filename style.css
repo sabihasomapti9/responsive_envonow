@@ -386,4 +386,15 @@ justify-content: center;
   }
 }
 
+.flex-container {
+  display: flex;
+  flex-direction: row; 
+  align-items: center; 
+}
+
+.personalized-pc{
+  width: 460px; 
+  height:460px;
+  margin-left: 10px; 
+}
 
