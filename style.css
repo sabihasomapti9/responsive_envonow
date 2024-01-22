@@ -388,7 +388,6 @@ justify-content: center;
 
 .flex-container {
   display: flex;
-  flex-direction: row; 
   align-items: center; 
 }
 
@@ -398,3 +397,6 @@ justify-content: center;
   margin-left: 10px; 
 }
 
+.container-1 p{
+display: none;
+}
