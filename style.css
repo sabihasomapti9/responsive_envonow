@@ -4,10 +4,7 @@
 
 body{
   margin:0;
-  font-family: 'Noto Serif', serif;
-font-family: 'Nunito', sans-serif;
-font-family: 'Playfair Display', serif;
-font-family: 'Roboto', sans-serif;
+  
 font-family: 'Roboto Slab', serif;
 }
 
@@ -35,8 +32,10 @@ h1{
 }
 @media (max-width: 768px) {
   h1 {
-    height: 50px; /* Reduce header height for smaller screens */
-    font-size: 30px; /* Reduce font size */
+    width:100%; /* Reduce header height for smaller screens */
+    max-width:60%;
+    
+    font-size: 2.3em; /* Reduce font size */
     margin-top: -16px;
     text-align: center;
     
