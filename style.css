@@ -36,3 +36,8 @@ font-family: 'Roboto Slab', serif;
   flex: 1; /* Logo will take up all available space in the container */
 }
 
+@media (max-width: 768px) {
+  h1 {
+    font-size: 2rem;
+  }
+}
