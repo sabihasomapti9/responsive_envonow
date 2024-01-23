@@ -374,7 +374,7 @@ justify-content: center;
   .container-credle{
     padding: 7px;
     margin-top: 10px;
-    margin-left:40px;
+    margin-left:10px;
   
   }
 }
@@ -384,8 +384,7 @@ justify-content: center;
   .sources-pc{
     
     margin-right: 110px; 
-    width:250px;
-    height:250px; 
+    width:10%;
   }
 }
 
@@ -395,8 +394,6 @@ justify-content: center;
 }
 
 .personalized-pc{
-  width: 460px; 
-  height:460px;
+  width: 26%;
   margin-left: 10px; 
 }
-
