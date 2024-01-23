@@ -33,23 +33,12 @@ font-family: 'Roboto Slab', serif;
 }
 
 .logo {
-  flex: 1; /* Logo will take up all available space in the container */
-}
-
-@media (max-width: 768px) {
-  h1 {
-    font-size: 2rem;
-  }
+  flex: 0; /* Logo will take up all available space in the container */
 }
 
 
 
-
-
-
-
-
-.container {
+.container-h{
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -66,14 +55,16 @@ font-family: 'Roboto Slab', serif;
 }
 
 .line2 {
+  
   color: #777; /* Optional: adjust subtitle color */
+  
 }
 
 @media (min-width: 768px) { /* For larger screens */
-  .container {
+  .container-h {
     flex-direction: row;
   }
   .line1, .line2 {
-    width: 50%;
+    width: 40%;
   }
 }

@@ -31,14 +31,6 @@ if (!validateEmail(email)) {
 }
 
 
-
-
-
-
-
-
-
-
 const container = document.querySelector('.container');
 const lines = document.querySelectorAll('.line1, .line2');
 
