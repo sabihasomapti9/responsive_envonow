@@ -41,3 +41,39 @@ font-family: 'Roboto Slab', serif;
     font-size: 2rem;
   }
 }
+
+
+
+
+
+
+
+
+.container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: 40px; /* Adjust to your preference */
+  padding: 50px;
+}
+
+.line1, .line2 {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  margin-bottom: 2px; /* Minimal spacing between lines */
+}
+
+.line2 {
+  color: #777; /* Optional: adjust subtitle color */
+}
+
+@media (min-width: 768px) { /* For larger screens */
+  .container {
+    flex-direction: row;
+  }
+  .line1, .line2 {
+    width: 50%;
+  }
+}
