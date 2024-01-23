@@ -32,10 +32,13 @@ h1{
 }
 @media (max-width: 768px) {
   h1 {
-    width:100%; /* Reduce header height for smaller screens */
-    max-width:60%;
+    width:50%; /* Reduce header height for smaller screens */
     
-    font-size: 2.3em; /* Reduce font size */
+    min-width: 400px;
+    
+  
+    
+    font-size: 16vmin; /* Reduce font size */
     margin-top: -16px;
     text-align: center;
     
@@ -44,10 +47,11 @@ h1{
 
 
 
+
 @media (max-width: 768px) {
   img {
-    height: 20px; /* Reduce header height for smaller screens */
-    width:125px;
+    /* Reduce header height for smaller screens */
+    
     align-items: center;
   
   }
@@ -396,6 +400,3 @@ justify-content: center;
   margin-left: 10px; 
 }
 
-.container-1 p{
-display: none;
-}
