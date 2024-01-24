@@ -25,7 +25,7 @@ if (!validateEmail(email)) {
 
 
 const container = document.querySelector('.container-h');
-const lines = document.querySelectorAll('.line1, .line2');
+const lines = document.querySelectorAll('.line1');
 
 function adjustLayout() {
   if (window.innerWidth >= 768) {

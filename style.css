@@ -51,6 +51,7 @@ font-family: 'Roboto Slab', serif;
 
 .line1 {
   display: flex;
+  font-size: 35px;
   flex-direction: row;
   justify-content: center;
   margin-bottom: 2px; /* Minimal spacing between lines */
@@ -58,20 +59,17 @@ font-family: 'Roboto Slab', serif;
 
 
 
-@media (min-width: 768px) { /* For larger screens */
-  .container-h {
-    flex-direction: row;
-  }
-  .line1 {
-    width: 40%;
-  }
-}
 
 
 
-@media (min-width: 768px) { /* For larger screens */
+@media screen and (max-width: 768px) {
   .container-h .line1{
-    font-size: 2em;
-    width:20%;
+    
+    flex-direction: row;
+    font-size: 64px;
+    width:7%;
   }
 }
+
+
+
