@@ -72,3 +72,21 @@ font-family: 'Roboto Slab', serif;
     width:7%;
   }
 }
+.paragraph-1 {
+  font-size: 1.2rem;  /* Adjust as needed */
+}
+
+
+/* Style for smaller screens (e.g., smartphones) */
+@media (max-width: 768px) {
+  .paragraph-1 {
+    
+    
+    
+    
+    
+  }
+}
+
+
+
