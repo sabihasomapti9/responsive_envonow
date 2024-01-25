@@ -37,9 +37,24 @@ function adjustLayout() {
   }
 }
 
+
+
+
+
+
 window.addEventListener('resize', adjustLayout);
 adjustLayout(); // Call initially to set styles
 
+window.addEventListener('resize', function() {
+  const logo = document.querySelector('.logo');
+  const screenWidth = window.innerWidth;
+
+  if (screenWidth <= 500) {
+    logo.style.width = '100%';
+  } else {
+    logo.style.width = '80%'; // Adjust to desired behavior on larger screens
+  }
+});
 
 
 

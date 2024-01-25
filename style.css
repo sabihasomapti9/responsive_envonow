@@ -17,24 +17,26 @@ font-family: 'Roboto Slab', serif;
 
 
 }
-@media  screen and (max-width: 668px) {
+
+.logo {
+  max-width: 80%; /* Adjust based on preferred logo size on 500px screen */
+  height: auto; /* Maintain aspect ratio */
+}
+
+@media (max-width: 500px) {
   .logo {
-    width: 65%;
-    max-width: 140px; 
-    padding-top: 5px;/* Smaller size for mobile screens */
-    
+    width: 40%;
+    padding-top: 21px; /* Ensure logo fits within container on 500px screens */
   }
 }
+
+
 .header {
   display: flex;
   justify-content: center;
   align-items: center;
 }
 
-.logo {
-  padding-top: 24px;
-  flex: 0; /* Logo will take up all available space in the container */
-}
 
 
 
@@ -72,6 +74,39 @@ font-family: 'Roboto Slab', serif;
     width:7%;
   }
 }
+
+.paragraph-container {
+  
+
+}
+
+@media (max-width: 768px) {
+  .paragraph-container .paragraph-1 {
+    
+    
+  }
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 .paragraph-1 {
   font-size: 1.2rem;  /* Adjust as needed */
 }
