@@ -40,7 +40,7 @@ font-family: 'Roboto Slab', serif;
 @media (max-width:720px){
 .heading {
   text-align: center;
-  position: relative;
+  position: none;
 }
 
 
@@ -49,26 +49,23 @@ font-family: 'Roboto Slab', serif;
 
 
 
-h1 {
+h1 div {
   font-size: 3rem;
+  display: inline;
   margin: 0;
 }
 
 
-@media (max-width:720px){
-h1 span {
-  display: none; /* Force each line to take a full line */
-}
-}
 
 
-@media (max-width: 720px) {
+@media screen and (max-width: 720px) {
   h1  div {
-      font-size: 2rem; /* Reduce font size for smaller screens */
-      display:inline;
+      font-size: 3.6rem; /* Reduce font size for smaller screens */
+     display:block;
       text-align: center;
       
-      position:none;
+      margin:0 auto;
+      
   }
 }
 
