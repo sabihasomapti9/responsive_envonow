@@ -42,6 +42,3 @@ adjustLayout(); // Call initially to set styles
 
 
 
-
-
-
