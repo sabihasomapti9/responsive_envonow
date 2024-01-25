@@ -37,24 +37,38 @@ font-family: 'Roboto Slab', serif;
   align-items: center;
 }
 
-
+@media (max-width:720px){
 .heading {
   text-align: center;
   position: relative;
 }
+
+
+}
+
+
+
 
 h1 {
   font-size: 3rem;
   margin: 0;
 }
 
+
+@media (max-width:720px){
 h1 span {
-  display: block; /* Force each line to take a full line */
+  display: none; /* Force each line to take a full line */
+}
 }
 
+
 @media (max-width: 720px) {
-  h1 {
+  h1  div {
       font-size: 2rem; /* Reduce font size for smaller screens */
+      display:inline;
+      text-align: center;
+      
+      position:none;
   }
 }
 
