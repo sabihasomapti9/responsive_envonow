@@ -23,7 +23,7 @@ font-family: 'Roboto Slab', serif;
   height: auto; /* Maintain aspect ratio */
 }
 
-@media (max-width: 500px) {
+@media (max-width: 720px) {
   .logo {
     width: 40%;
     padding-top: 21px; /* Ensure logo fits within container on 500px screens */
@@ -55,7 +55,8 @@ font-family: 'Roboto Slab', serif;
 
 .line1 {
   display: flex;
-  font-size: 35px;
+  font-size: 21px;
+  font-weight:600;
   flex-direction: row;
   justify-content: center;
   margin-bottom: 2px; /* Minimal spacing between lines */
