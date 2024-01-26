@@ -1,26 +1,40 @@
 
-const emailInput = document.getElementById("email");
-const subscribeButton = document.getElementById("subscribe-button");
-subscribeButton.addEventListener("click", (event) => {
-  const email = emailInput.value;
-  
-  if (!validateEmail(email)) {
-    event.preventDefault(); // Prevent form submission
-    // Display error message
-  } else {
-    // Submit form or handle subscription logic
+const subscribeButton = document.querySelector('.subscribe-button');
+const emailInput = document.querySelector('.email-input');
+
+subscribeButton.addEventListener('click', () => {
+  const email = emailInput.value.trim(); // Trim whitespace
+
+  // Validate email (consider using a regular expression or library)
+  if (!isValidEmail(email)) {
+    alert('Please enter a valid email address.');
+    return;
   }
+
+  // Save email using your preferred method (e.g., localStorage, server-side)
+  localStorage.setItem('subscribedEmail', email);
+  console.log('Email saved:', email);
+
+  // Additional actions (e.g., display a success message, clear the input field)
+  emailInput.value = '';
+  alert('You have successfully subscribed!');
 });
-document.getElementById("subscribe-form").addEventListener("submit", (event) => {
-  event.preventDefault();
-  
-});
-const email = emailInput.value;
-if (!validateEmail(email)) {
-  // Display error message
-} else {
-  // Proceed with subscription
+
+// Example email validation function (replace with a robust validation method)
+function isValidEmail(email) {
+  // Simple validation, consider using a more comprehensive regex or library
+  return email.includes('@') && email.includes('.');
 }
+
+
+
+
+
+
+
+
+
+
 
 
 

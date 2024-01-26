@@ -104,13 +104,22 @@ h1 div {
   border-radius: 5px;
 }
 
+@media only screen and (max-width:720px) {
 .subscribe-button {
-  background-color: #007bff; /* Blue color */
+  background-color: #557153; /* Blue color */
   color: white;
   padding: 0.5rem 1rem;
   border: none;
   border-radius: 5px;
   cursor: pointer;
+
+  
+border-top-right-radius: 2.2px;
+
+font-family: "roboto slab", sans-serif;
+
+font-size: 1em;
+}
 }
 
 
