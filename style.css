@@ -25,7 +25,7 @@ font-family: 'Roboto Slab', serif;
 
 @media (max-width: 720px) {
   .logo {
-    width: 40%;
+    width: 31%;
     padding-top: 21px; /* Ensure logo fits within container on 500px screens */
   }
 }
