@@ -143,8 +143,24 @@ font-size: 1em;
 }
 
 
+@media screen and (max-width:720px){
+.third{
+  display: block;
+  font-weight: 400;
+  font-size: .9rem;
+  word-spacing: 1.6px;
+  
+}
 
+}
 
+@media screen and (max-width:720px){
+
+  section > p{
+   padding-top:1px;
+
+  }
+}
 
 
 
