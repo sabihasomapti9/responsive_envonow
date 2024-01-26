@@ -38,8 +38,9 @@ font-family: 'Roboto Slab', serif;
 }
 
 @media (max-width:720px){
-.heading {
+.heading > h1 div{
   text-align: center;
+  display: block;
   position: none;
 }
 
@@ -51,7 +52,7 @@ font-family: 'Roboto Slab', serif;
 
 h1 div {
   font-size: 3rem;
-  display: inline;
+  display: inline-block;
   margin: 0;
 }
 
@@ -60,8 +61,7 @@ h1 div {
   .paragraph-container >  .second {
 
     
-      text-align: center; /* Horizontal centering */
-          /* Further horizontal centering */
+      text-align: center; 
       
       display: block;
       font-weight:600;
