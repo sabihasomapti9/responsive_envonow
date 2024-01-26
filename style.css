@@ -56,29 +56,18 @@ h1 div {
 }
 
 
-
-
-@media screen and (max-width: 720px) {
-  h1  div {
-      font-size: 3.6rem; /* Reduce font size for smaller screens */
-     display:block;
-      text-align: center;
-      
-      margin:0 auto;
-      
-  }
-}
-
-
 @media (max-width: 720px) {
-  .paragraph-1  div {
+  .paragraph-container >  .second {
 
     
       text-align: center; /* Horizontal centering */
-      margin: 0 auto;     /* Further horizontal centering */
-  
+          /* Further horizontal centering */
+      
+      display: block;
+      font-weight:600;
   }
 }
+
 
 
 
