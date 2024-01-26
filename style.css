@@ -91,26 +91,38 @@ h1 div {
   .email-subscribe-container {
     flex-direction: column;
     text-align: center; /* Center elements for vertical layout */
+    display: inline;
+    
   }
 
   .email-input {
-    width: 100%;
+    width: 30%;
   }
 }
 
+
+@media screen and (max-width: 720px){
+  
+
 .email-input {
-  padding: 0.5rem 1rem;
+  padding: 0.7rem .6rem;
   border: 1px solid #ccc;
   border-radius: 5px;
+  border: 1px solid #829460;
 }
+}
+
+
+
+
 
 @media only screen and (max-width:720px) {
 .subscribe-button {
   background-color: #557153; /* Blue color */
   color: white;
-  padding: 0.5rem 1rem;
+  padding: 0.5rem .6rem;
   border: none;
-  border-radius: 5px;
+  border-radius: 3px;
   cursor: pointer;
 
   
@@ -123,7 +135,12 @@ font-size: 1em;
 }
 
 
-
+@media (max-width: 720px) {
+  button:hover {
+  background-color: #4E6C50; 
+  cursor: pointer;
+}
+}
 
 
 
