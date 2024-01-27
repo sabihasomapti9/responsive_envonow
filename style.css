@@ -164,10 +164,44 @@ font-size: 1em;
 
 
 
+.pic-container {
+  width: 100%;
+  max-width: 720px;
+  margin: 0 auto;
+  text-align: center;
+}
 
+.picture-row {
+  display: flex;
+  justify-content: space-between;
+  
+}
 
+.picture-item {
+  display: flex;
+  flex-basis: 0%;
+  margin-bottom: 0px;
+}
 
+.picture-item img {
+  width: 100%;
+  height: 200px; /* Adjust height as needed */
+  object-fit: cover;
+}
 
+.paragraph-2 {
+  margin-top: 20px;
+}
+
+@media (max-width: 720px) {
+  .picture-item {
+      flex-basis: 50%;
+  }
+  
+  .pic-container {
+      padding: 0 10px; /* Add a bit of padding on smaller screens */
+  }
+}
 
 
 
