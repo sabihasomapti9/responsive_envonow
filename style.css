@@ -163,13 +163,15 @@ font-size: 1em;
 }
 
 
-
+@media screen and (max-width:720px){
 .pic-container {
   width: 100%;
   max-width: 720px;
   margin: 0 auto;
   text-align: center;
 }
+}
+
 
 .picture-row {
   display: flex;
@@ -180,7 +182,7 @@ font-size: 1em;
 .picture-item {
   display: flex;
   flex-basis: 0%;
-  margin-bottom: 0px;
+  margin-bottom: 20px;
 }
 
 .picture-item img {
@@ -205,6 +207,41 @@ font-size: 1em;
 
 
 
+body {
+  margin: 0;
+  font-family: sans-serif;
+}
+
+.container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  max-width: 720px; /* Set max-width for responsiveness */
+  margin: 0 auto;
+}
+
+.image-wrapper {
+  flex-basis: 33%; /* Each image takes up 1/3 of the width */
+  margin-bottom: 20px;
+  text-align: center;
+}
+
+img {
+  max-width: 100%;
+  height: auto;
+}
+
+h2 {
+  margin-top: 10px;
+}
+
+/* Media query for screens smaller than 720px */
+@media (max-width: 720px) {
+  .image-wrapper {
+    flex-basis: 100%; /* Stack images on smaller screens */
+    margin-bottom: 30px; /* Increase spacing for better readability */
+  }
+}
 
 
 
