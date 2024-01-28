@@ -163,13 +163,13 @@ font-size: 1em;
 }
 
 .content{
-  padding-top: 27px;
+  padding-top: 19px;
 }
 
 
 
 .pic-container {
-  padding-top: 21px;
+  padding-top: 19px;
   display: flex;
   flex-wrap: wrap;
   justify-content: center;
@@ -184,6 +184,7 @@ font-size: 1em;
 }
 
 img {
+  width: 59%;
   max-width: 100%;
   height: auto;
 }
@@ -195,7 +196,7 @@ h2 {
 
 @media screen and (max-width:720px){
  .picture-item > img {
-  width:90%;
+  width:95%;
   height: auto;
 }
 }
@@ -206,7 +207,7 @@ h2 {
 /* Media query for screens smaller than 720px */
 @media (max-width: 720px) {
   .picture-item {
-    flex-basis: 27%; /* Stack images on smaller screens */
+    flex-basis: 29%; /* Stack images on smaller screens */
     margin-bottom: 30px; /* Increase spacing for better readability */
   }
 }
