@@ -162,11 +162,14 @@ font-size: 1em;
   }
 }
 
-
+.content{
+  padding-top: 27px;
+}
 
 
 
 .pic-container {
+  padding-top: 21px;
   display: flex;
   flex-wrap: wrap;
   justify-content: center;
@@ -190,7 +193,12 @@ h2 {
 }
 
 
-
+@media screen and (max-width:720px){
+ .picture-item > img {
+  width:90%;
+  height: auto;
+}
+}
 
 
 
@@ -198,7 +206,7 @@ h2 {
 /* Media query for screens smaller than 720px */
 @media (max-width: 720px) {
   .picture-item {
-    flex-basis: 100%; /* Stack images on smaller screens */
+    flex-basis: 27%; /* Stack images on smaller screens */
     margin-bottom: 30px; /* Increase spacing for better readability */
   }
 }
