@@ -175,6 +175,7 @@ font-size: 1em;
   justify-content: center;
   max-width: 720px; /* Set max-width for responsiveness */
   margin: 0 auto;
+  padding-bottom: 1.7rem;
 }
 
 .picture-item {
@@ -224,12 +225,13 @@ h2 {
 
 
 
-
 .another-container {
+  background-color: #f6fffb;
   display: flex;
   align-items: center; /* Vertically align elements */
   margin: 0 auto; /* Center horizontally */
-  padding: 1rem; /* Add spacing around the elements */
+  padding-top: 1.3rem;
+  
 }
 
 .sour-con {
@@ -262,10 +264,10 @@ img {
     
     justify-content: center;
     align-items: center;
-    margin:0 auto;
+    margin:  47px;
+    
   }
 }
-
 
 
 
