@@ -27,18 +27,6 @@ function isValidEmail(email) {
 }
 
 
-const container = document.querySelector('.container-h');
-const lines = document.querySelectorAll('.line1');
-
-function adjustLayout() {
-  if (window.innerWidth >= 768) {
-    container.style.flexDirection = 'row';
-    lines.forEach(line => line.style.width = '50%');
-  } else {
-    container.style.flexDirection = 'column';
-    lines.forEach(line => line.style.width = 'auto');
-  }
-}
 
 
 window.addEventListener('resize', adjustLayout);
@@ -54,13 +42,6 @@ window.addEventListener('resize', function() {
     logo.style.width = '80%'; // Adjust to desired behavior on larger screens
   }
 });
-
-
-
-
-
-
-
 
 
 
