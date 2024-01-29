@@ -292,6 +292,105 @@ img {
 
 
 
+.double-container {
+  background-color: #f6fffb;
+  
+  display: flex;
+  align-items: center; /* Vertically align elements */
+  margin: 0 auto; /* Center horizontally */
+  padding-top: 1.3rem;
+  
+}
+
+.read-what {
+  margin-right: .4rem; /* Distance between heading and image */
+}
+
+@media screen and (max-width:720px){
+  .for {
+   font-size:2rem;
+   font-family: "Roboto slab", serif;
+   
+
+ }
+
+}
+
+
+
+
+
+
+img {
+  height: 100%; /* Ensure image scales responsively */
+  width: auto;
+}
+
+@media screen and  (max-width: 720px) {
+  .read-what{
+    display: block; /* Stack elements on small screens */
+    
+    justify-content: center;
+    align-items: center;
+    margin:  47px;
+    
+  }
+}
+
+
+
+
+
+
+@media screen and (max-width:720px) {
+  
+
+  img {
+    padding-top: 35px;
+    width:50%;
+    margin-top: 0rem; /* Add spacing between heading and image */
+  
+  }
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
