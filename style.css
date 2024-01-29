@@ -293,7 +293,7 @@ img {
 
 
 .double-container {
-  background-color: #f6fffb;
+  background-color: red;
   
   display: flex;
   align-items: center; /* Vertically align elements */
@@ -310,6 +310,7 @@ img {
   .for {
    font-size:2rem;
    font-family: "Roboto slab", serif;
+   padding-top: 2.2rem;
    
 
  }
@@ -332,7 +333,7 @@ img {
     
     justify-content: center;
     align-items: center;
-    margin:  47px;
+    margin-right:auto;
     
   }
 }
@@ -347,12 +348,12 @@ img {
 
   img {
     padding-top: 35px;
-    width:50%;
-    margin-top: 0rem; /* Add spacing between heading and image */
+    width:40%;
+    margin-left:auto; /* Add spacing between heading and image */
+    margin-right: 20px;
   
   }
 }
-
 
 
 
