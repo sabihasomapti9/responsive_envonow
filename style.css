@@ -233,7 +233,7 @@ h2 {
 }
 
 .sour-con {
-  margin-right: 1.4rem; /* Distance between heading and image */
+  margin-right: .4rem; /* Distance between heading and image */
 }
 
 @media screen and (max-width:720px){
@@ -262,15 +262,21 @@ img {
     
     justify-content: center;
     align-items: center;
-  
+    margin:0 auto;
   }
 }
+
+
+
+
+
 
 
 @media screen and (max-width:720px) {
   
 
   img {
+    padding-top: 35px;
     width:50%;
     margin-top: 0rem; /* Add spacing between heading and image */
   
