@@ -427,6 +427,79 @@ img {
 
 
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 .headja {
   display: flex;
   justify-content: center;
@@ -454,7 +527,7 @@ h1 div {
 
 
 @media (max-width: 720px) {
-  .paragraph-container >  .second {
+  .paragraph-container-0 >  .secd{
 
     
       text-align: center; 
@@ -491,7 +564,7 @@ h1 div {
     
   }
 
-  .email-input {
+  .email-input1{
     width: 30%;
   }
 }
@@ -500,7 +573,7 @@ h1 div {
 @media screen and (max-width: 720px){
   
 
-.email-input {
+.email-input1 {
   padding: 0.7rem .6rem;
   border: 1px solid #ccc;
   border-radius: 5px;
@@ -513,7 +586,7 @@ h1 div {
 
 
 @media only screen and (max-width:720px) {
-.subscribe-button {
+.subscribe-button1 {
   background-color: #557153; /* Blue color */
   color: white;
   padding: 0.5rem .6rem;
@@ -540,7 +613,7 @@ font-size: 1em;
 
 
 @media screen and (max-width:720px){
-.third{
+.thd{
   display: block;
   font-weight: 400;
   font-size: .9rem;
@@ -552,7 +625,7 @@ font-size: 1em;
 
 @media screen and (max-width:720px){
 
-  section > p{
+  section .new > p{
    padding-top:1px;
 
   }
