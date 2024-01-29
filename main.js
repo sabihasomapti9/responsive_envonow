@@ -27,17 +27,6 @@ function isValidEmail(email) {
 }
 
 
-
-
-
-
-
-
-
-
-
-
-
 const container = document.querySelector('.container-h');
 const lines = document.querySelectorAll('.line1');
 
@@ -50,10 +39,6 @@ function adjustLayout() {
     lines.forEach(line => line.style.width = 'auto');
   }
 }
-
-
-
-
 
 
 window.addEventListener('resize', adjustLayout);
