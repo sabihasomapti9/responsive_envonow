@@ -564,7 +564,7 @@ img {
   
   
   @media (max-width: 720px) {
-    .paragraph-container-0 >  .secd {
+    .paragraph-container >  .second {
   
       
         text-align: center; 
@@ -584,7 +584,7 @@ img {
   
   
   
-  .email-subscribe-container-items {
+  .email-subscribe-container {
     display: flex;
     align-items: center;
     justify-content: center;
@@ -594,14 +594,14 @@ img {
   }
   
   @media (max-width: 720px) {
-    .email-subscribe-container-items {
+    .email-subscribe-container {
       flex-direction: column;
       text-align: center; /* Center elements for vertical layout */
       display: inline;
       
     }
   
-    .email-address {
+    .email-input {
       width: 30%;
     }
   }
@@ -610,7 +610,7 @@ img {
   @media screen and (max-width: 720px){
     
   
-  .email-address{
+  .email-input {
     padding: 0.7rem .6rem;
     border: 1px solid #ccc;
     border-radius: 5px;
@@ -623,7 +623,7 @@ img {
   
   
   @media only screen and (max-width:720px) {
-  .submit {
+  .subscribe-button {
     background-color: #557153; /* Blue color */
     color: white;
     padding: 0.5rem .6rem;
@@ -650,7 +650,7 @@ img {
   
   
   @media screen and (max-width:720px){
-  .thd{
+  .third{
     display: block;
     font-weight: 400;
     font-size: .9rem;
@@ -662,11 +662,28 @@ img {
   
   @media screen and (max-width:720px){
   
-    section  .new > p{
+    section > p{
      padding-top:1px;
   
     }
   }
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+
+  
+  
+  
+  
+ 
+  
   
 
 

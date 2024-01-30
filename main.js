@@ -47,58 +47,11 @@ window.addEventListener('resize', function() {
 
 
 
+const subscribebutton = document.querySelector('.subscribe-button');
+const emailinput = document.querySelector('.email-input');
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-const submit = document.querySelector('.submit');
-const emailaddress = document.querySelector('.email-address');
-
-submit.addEventListener('click', () => {
-  const email = emailaddress.value.trim(); // Trim whitespace
+subscribebutton.addEventListener('click', () => {
+  const email = emailinput.value.trim(); // Trim whitespace
 
   // Validate email (consider using a regular expression or library)
   if (!isValidEmail(email)) {
@@ -111,7 +64,7 @@ submit.addEventListener('click', () => {
   console.log('Email saved:', email);
 
   // Additional actions (e.g., display a success message, clear the input field)
-  emailaddress.value = '';
+  emailinput.value = '';
   alert('You have successfully subscribed!');
 });
 
@@ -120,6 +73,54 @@ function isValidEmail(email) {
   // Simple validation, consider using a more comprehensive regex or library
   return email.includes('@') && email.includes('.');
 }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
