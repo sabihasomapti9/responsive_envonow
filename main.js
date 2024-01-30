@@ -84,17 +84,75 @@ window.addEventListener('resize', function() {
 
 
 
-const sub = document.getElementById('sub');
 
-sub.addEventListener('submit', (event) => {
-  event.preventDefault();
 
-  const email = document.getElementById('email-inpt').value;
 
-  // Send email data to your server or email service
-  // ... (Replace with your specific code for sending data)
 
-  // Clear form fields and display a success message
-  sub.reset();
-  alert('Thank you for subscribing!');
+
+
+
+
+
+
+const submit = document.querySelector('.submit');
+const emailaddress = document.querySelector('.email-address');
+
+submit.addEventListener('click', () => {
+  const email = emailaddress.value.trim(); // Trim whitespace
+
+  // Validate email (consider using a regular expression or library)
+  if (!isValidEmail(email)) {
+    alert('Please enter a valid email address.');
+    return;
+  }
+
+  // Save email using your preferred method (e.g., localStorage, server-side)
+  localStorage.setItem('subscribedEmail', email);
+  console.log('Email saved:', email);
+
+  // Additional actions (e.g., display a success message, clear the input field)
+  emailaddress.value = '';
+  alert('You have successfully subscribed!');
 });
+
+// Example email validation function (replace with a robust validation method)
+function isValidEmail(email) {
+  // Simple validation, consider using a more comprehensive regex or library
+  return email.includes('@') && email.includes('.');
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
